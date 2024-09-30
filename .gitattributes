@@ -1,5 +1,11 @@
 # Unity .gitattributes
 
+# Force LF for all text files
+* text=auto eol=lf
+
+# Force CRLF for specific types of files
+*.bat text eol=crlf
+
 # Unity files
 *.cs diff=csharp text
 *.cginc text
